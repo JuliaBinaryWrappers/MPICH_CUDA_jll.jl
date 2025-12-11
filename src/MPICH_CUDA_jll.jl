@@ -8,5 +8,5 @@ Base.include(@__MODULE__, joinpath("..", ".pkg", "platform_augmentation.jl"))
 import JLLWrappers
 
 JLLWrappers.@generate_main_file_header("MPICH_CUDA")
-JLLWrappers.@generate_main_file("MPICH_CUDA", UUID("be7bd464-f152-51b7-b3a2-8e7b69765627"))
+JLLWrappers.@generate_main_file("MPICH_CUDA", Base.UUID("be7bd464-f152-51b7-b3a2-8e7b69765627"))
 end  # module MPICH_CUDA_jll
