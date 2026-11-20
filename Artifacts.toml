@@ -1,7 +1,7 @@
 [[MPICH_CUDA]]
 arch = "x86_64"
 cuda = "11.8"
-git-tree-sha1 = "c6e229023a8e5bce03c56a1cb2b2fa9dd6c64ddc"
+git-tree-sha1 = "4948b7b328908ac8605b3fae44e8044ccf66a09b"
 lazy = true
 libc = "glibc"
 libgfortran_version = "5.0.0"
@@ -9,13 +9,13 @@ mpi = "mpich"
 os = "linux"
 
     [[MPICH_CUDA.download]]
-    sha256 = "411e40f5ab6ee87e355a8ad081ec8a58bd8546e42300cf23d76f54c698011cfa"
-    url = "https://github.com/JuliaBinaryWrappers/MPICH_CUDA_jll.jl/releases/download/MPICH_CUDA-v5.0.3+0/MPICH_CUDA.v5.0.3.x86_64-linux-gnu-libgfortran5-cuda+11.8-mpi+mpich.tar.gz"
+    sha256 = "19d7960b915e1de54ec7e2d730d51ff0b38b2cb4b466f89c5f9d9658a7b15b44"
+    url = "https://github.com/JuliaBinaryWrappers/MPICH_CUDA_jll.jl/releases/download/MPICH_CUDA-v5.0.4+0/MPICH_CUDA.v5.0.4.x86_64-linux-gnu-libgfortran5-cuda+11.8-mpi+mpich.tar.gz"
 [[MPICH_CUDA]]
 arch = "aarch64"
 cuda = "11.8"
 cuda_platform = "jetson"
-git-tree-sha1 = "e09dce09b178bfd988f2fddbedc1a14776821d46"
+git-tree-sha1 = "fa0f7761095b96c1be8313beb6ce4937bc16c5f6"
 lazy = true
 libc = "glibc"
 libgfortran_version = "5.0.0"
@@ -23,13 +23,13 @@ mpi = "mpich"
 os = "linux"
 
     [[MPICH_CUDA.download]]
-    sha256 = "bbb851864b3c33c76a19c157adc0502d56778fec39588289a371869fdd80cfa9"
-    url = "https://github.com/JuliaBinaryWrappers/MPICH_CUDA_jll.jl/releases/download/MPICH_CUDA-v5.0.3+0/MPICH_CUDA.v5.0.3.aarch64-linux-gnu-libgfortran5-cuda_platform+jetson-cuda+11.8-mpi+mpich.tar.gz"
+    sha256 = "f6db8895af90d77927ad1ec1b4fda699daa72ba776586645068beea6ed678dd7"
+    url = "https://github.com/JuliaBinaryWrappers/MPICH_CUDA_jll.jl/releases/download/MPICH_CUDA-v5.0.4+0/MPICH_CUDA.v5.0.4.aarch64-linux-gnu-libgfortran5-cuda_platform+jetson-cuda+11.8-mpi+mpich.tar.gz"
 [[MPICH_CUDA]]
 arch = "aarch64"
 cuda = "11.8"
 cuda_platform = "sbsa"
-git-tree-sha1 = "a99de9ed85c05a0477c7706438f9a9ca39c76c44"
+git-tree-sha1 = "a8b6630c415b842a1163260857b0c745d9f2fc1f"
 lazy = true
 libc = "glibc"
 libgfortran_version = "5.0.0"
@@ -37,12 +37,12 @@ mpi = "mpich"
 os = "linux"
 
     [[MPICH_CUDA.download]]
-    sha256 = "cc711f283d5404ca9fdab3fa78af2302b5bb5ae1a5da1122e805ee3a22f5263e"
-    url = "https://github.com/JuliaBinaryWrappers/MPICH_CUDA_jll.jl/releases/download/MPICH_CUDA-v5.0.3+0/MPICH_CUDA.v5.0.3.aarch64-linux-gnu-libgfortran5-cuda_platform+sbsa-cuda+11.8-mpi+mpich.tar.gz"
+    sha256 = "23ac3cce9132e3d387182e4b73b1e389e7a81b3e00d75cf09f653ccab78b3974"
+    url = "https://github.com/JuliaBinaryWrappers/MPICH_CUDA_jll.jl/releases/download/MPICH_CUDA-v5.0.4+0/MPICH_CUDA.v5.0.4.aarch64-linux-gnu-libgfortran5-cuda_platform+sbsa-cuda+11.8-mpi+mpich.tar.gz"
 [[MPICH_CUDA]]
 arch = "x86_64"
 cuda = "12.0"
-git-tree-sha1 = "3de5574a0da5e4b8b32a1195f7481562eb2e7f5a"
+git-tree-sha1 = "279dc95715483586854499b1e3dad847644b4bfe"
 lazy = true
 libc = "glibc"
 libgfortran_version = "5.0.0"
@@ -50,13 +50,13 @@ mpi = "mpich"
 os = "linux"
 
     [[MPICH_CUDA.download]]
-    sha256 = "2c61d9485fe418c3e1458e72a417fddae885f11400811a23ecb9f7c2e54baf50"
-    url = "https://github.com/JuliaBinaryWrappers/MPICH_CUDA_jll.jl/releases/download/MPICH_CUDA-v5.0.3+0/MPICH_CUDA.v5.0.3.x86_64-linux-gnu-libgfortran5-cuda+12.0-mpi+mpich.tar.gz"
+    sha256 = "89bd2dc2ba94003ae70bde74aa2f9254c442e1cfc2a37009feffba212c50a69d"
+    url = "https://github.com/JuliaBinaryWrappers/MPICH_CUDA_jll.jl/releases/download/MPICH_CUDA-v5.0.4+0/MPICH_CUDA.v5.0.4.x86_64-linux-gnu-libgfortran5-cuda+12.0-mpi+mpich.tar.gz"
 [[MPICH_CUDA]]
 arch = "aarch64"
 cuda = "12.0"
 cuda_platform = "jetson"
-git-tree-sha1 = "1ecbdce8e963c7ec1eb263eee4830fd1734af591"
+git-tree-sha1 = "f70d82f5bc4562c70d57f3ea035a505020f077ff"
 lazy = true
 libc = "glibc"
 libgfortran_version = "5.0.0"
@@ -64,13 +64,13 @@ mpi = "mpich"
 os = "linux"
 
     [[MPICH_CUDA.download]]
-    sha256 = "3f46b4eaf3ea028b85349d6251aeb1439ca165ff593c967c32409f4187884fd6"
-    url = "https://github.com/JuliaBinaryWrappers/MPICH_CUDA_jll.jl/releases/download/MPICH_CUDA-v5.0.3+0/MPICH_CUDA.v5.0.3.aarch64-linux-gnu-libgfortran5-cuda_platform+jetson-cuda+12.0-mpi+mpich.tar.gz"
+    sha256 = "0478c0acb11f001e7ebfc534ae998cbdec78ce79c3ed8f88e27caffbfc4d1746"
+    url = "https://github.com/JuliaBinaryWrappers/MPICH_CUDA_jll.jl/releases/download/MPICH_CUDA-v5.0.4+0/MPICH_CUDA.v5.0.4.aarch64-linux-gnu-libgfortran5-cuda_platform+jetson-cuda+12.0-mpi+mpich.tar.gz"
 [[MPICH_CUDA]]
 arch = "aarch64"
 cuda = "12.0"
 cuda_platform = "sbsa"
-git-tree-sha1 = "9f0d7fc41faf1cbe14c10d6e21d705dfbb0ee65c"
+git-tree-sha1 = "279f1cdf42a210d7229d0fdd4c56dabcc536b37e"
 lazy = true
 libc = "glibc"
 libgfortran_version = "5.0.0"
@@ -78,12 +78,12 @@ mpi = "mpich"
 os = "linux"
 
     [[MPICH_CUDA.download]]
-    sha256 = "6163209e0f42870dfaa268d713c10366ff9a20cb966119b3bcfdea4c85a566ff"
-    url = "https://github.com/JuliaBinaryWrappers/MPICH_CUDA_jll.jl/releases/download/MPICH_CUDA-v5.0.3+0/MPICH_CUDA.v5.0.3.aarch64-linux-gnu-libgfortran5-cuda_platform+sbsa-cuda+12.0-mpi+mpich.tar.gz"
+    sha256 = "f20364861801ad37cdd7a8b24dd2e4704b3b50070168158f2fd45b83e9eb66cc"
+    url = "https://github.com/JuliaBinaryWrappers/MPICH_CUDA_jll.jl/releases/download/MPICH_CUDA-v5.0.4+0/MPICH_CUDA.v5.0.4.aarch64-linux-gnu-libgfortran5-cuda_platform+sbsa-cuda+12.0-mpi+mpich.tar.gz"
 [[MPICH_CUDA]]
 arch = "x86_64"
 cuda = "13.0"
-git-tree-sha1 = "c10a1b6de4e68c50ee7dc9b8789801983748f480"
+git-tree-sha1 = "f08c35f970960bd53727d010f06cb0b84d1af97d"
 lazy = true
 libc = "glibc"
 libgfortran_version = "5.0.0"
@@ -91,12 +91,12 @@ mpi = "mpich"
 os = "linux"
 
     [[MPICH_CUDA.download]]
-    sha256 = "42d50d41d2b85a37a808e1ca6248036a80e3fda2c8eef451cf54c0fd4ce3615a"
-    url = "https://github.com/JuliaBinaryWrappers/MPICH_CUDA_jll.jl/releases/download/MPICH_CUDA-v5.0.3+0/MPICH_CUDA.v5.0.3.x86_64-linux-gnu-libgfortran5-cuda+13.0-mpi+mpich.tar.gz"
+    sha256 = "b19538bd137c45df71eb77d7a32ae7d6dd49a14f968913526e330feec44ce8e7"
+    url = "https://github.com/JuliaBinaryWrappers/MPICH_CUDA_jll.jl/releases/download/MPICH_CUDA-v5.0.4+0/MPICH_CUDA.v5.0.4.x86_64-linux-gnu-libgfortran5-cuda+13.0-mpi+mpich.tar.gz"
 [[MPICH_CUDA]]
 arch = "aarch64"
 cuda = "13.0"
-git-tree-sha1 = "7922c01b72479765d3671880097cf604332245a5"
+git-tree-sha1 = "a84e847fd953b47f1ab38c263e0838275fc99967"
 lazy = true
 libc = "glibc"
 libgfortran_version = "5.0.0"
@@ -104,5 +104,5 @@ mpi = "mpich"
 os = "linux"
 
     [[MPICH_CUDA.download]]
-    sha256 = "497d25583fcad610428774a22aebc0152c86495cc64b5ce033e23c8473cc1f56"
-    url = "https://github.com/JuliaBinaryWrappers/MPICH_CUDA_jll.jl/releases/download/MPICH_CUDA-v5.0.3+0/MPICH_CUDA.v5.0.3.aarch64-linux-gnu-libgfortran5-cuda+13.0-mpi+mpich.tar.gz"
+    sha256 = "67e470f772bfc7e9036834b05ce10eba01764ad16f510cddaeac4d54f56fee95"
+    url = "https://github.com/JuliaBinaryWrappers/MPICH_CUDA_jll.jl/releases/download/MPICH_CUDA-v5.0.4+0/MPICH_CUDA.v5.0.4.aarch64-linux-gnu-libgfortran5-cuda+13.0-mpi+mpich.tar.gz"
